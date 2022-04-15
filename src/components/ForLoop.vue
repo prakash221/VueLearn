@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="forloop">
         <h1>For Loop</h1>
         <table border="2px">
             <tr>
@@ -35,3 +35,8 @@ export default {
     }
 };
 </script>
+<style>
+.forloop{
+    background-color: rgb(174, 242, 255);
+}
+</style>

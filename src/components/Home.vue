@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="home">
         <h1>First Component</h1>
         <h2>{{data}}</h2>
         <h3>{{msg}}</h3>
@@ -20,3 +20,8 @@ export default {
     }
 }
 </script>
+<style>
+.home{
+    background-color: darkgray;
+}
+</style>

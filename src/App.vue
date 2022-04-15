@@ -1,19 +1,23 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
+<div id=app>
+  <!-- <img alt="Vue logo" src="./assets/logo.png"> -->
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
   <!-- <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/> -->
-  <TestifElse/>
+  <!-- <TestifElse/> -->
   <!-- Using Component Multiple time -->
   <!-- <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/> -->
-  <LoopLearn/>
-
+  <!-- <LoopLearn/> -->
+  <ParentComp/>
+</div>
+  
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomePage from './components/Home'
 // import TestifElse from './components/ifelsewithBtn'
-import LoopLearn from './components/ForLoop'
+// import LoopLearn from './components/ForLoop'
+import ParentComp from './components/ParentComp'
 
 export default {
   name: 'App',
@@ -21,7 +25,8 @@ export default {
     // HelloWorld,
     // HomePage,
     // TestifElse
-    LoopLearn
+    // LoopLearn
+    ParentComp
   }
 }
 </script>
@@ -31,7 +36,6 @@ export default {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  text-align: center;
   color: #2c3e50;
   margin-top: 60px;
 }
