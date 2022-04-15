@@ -1,15 +1,20 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
+  <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/>
+  <!-- Using Component Multiple time -->
+  <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+// import HelloWorld from './components/HelloWorld.vue'
+import HomePage from './components/Home.vue'
 
 export default {
   name: 'App',
   components: {
-    HelloWorld
+    // HelloWorld,
+    HomePage
   }
 }
 </script>
