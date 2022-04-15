@@ -1,20 +1,23 @@
 <template>
   <img alt="Vue logo" src="./assets/logo.png">
   <!-- <HelloWorld msg="Welcome to Your Vue.js App"/> -->
-  <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/>
+  <!-- <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/> -->
+  <TestifElse/>
   <!-- Using Component Multiple time -->
-  <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/>
+  <!-- <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/> -->
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
-import HomePage from './components/Home.vue'
+// import HomePage from './components/Home'
+import TestifElse from './components/ifelsewithBtn'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
-    HomePage
+    // HomePage,
+    TestifElse
   }
 }
 </script>
