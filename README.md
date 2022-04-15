@@ -22,3 +22,9 @@ npm run lint
 
 ### Customize configuration
 See [Configuration Reference](https://cli.vuejs.org/config/).
+
+
+# Learning Process
+### Loop file (ForLoop.vue)
+Data function and array
+Loop through array and show on a table 

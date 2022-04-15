@@ -5,19 +5,23 @@
   <TestifElse/>
   <!-- Using Component Multiple time -->
   <!-- <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/> -->
+  <LoopLearn/>
+
 </template>
 
 <script>
 // import HelloWorld from './components/HelloWorld.vue'
 // import HomePage from './components/Home'
-import TestifElse from './components/ifelsewithBtn'
+// import TestifElse from './components/ifelsewithBtn'
+import LoopLearn from './components/ForLoop'
 
 export default {
   name: 'App',
   components: {
     // HelloWorld,
     // HomePage,
-    TestifElse
+    // TestifElse
+    LoopLearn
   }
 }
 </script>
