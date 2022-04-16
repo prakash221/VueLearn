@@ -7,7 +7,8 @@
   <!-- Using Component Multiple time -->
   <!-- <HomePage data="Passing Data from App" msg="Pass 2 or more data from App.vue"/> -->
   <!-- <LoopLearn/> -->
-  <ParentComp/>
+  <!-- <ParentComp/> -->
+  <TemplateL/>
 </div>
   
 </template>
@@ -17,7 +18,8 @@
 // import HomePage from './components/Home'
 // import TestifElse from './components/ifelsewithBtn'
 // import LoopLearn from './components/ForLoop'
-import ParentComp from './components/ParentComp'
+// import ParentComp from './components/ParentComp'
+import TemplateL from './components/TemplateVue.vue'
 
 export default {
   name: 'App',
@@ -26,7 +28,8 @@ export default {
     // HomePage,
     // TestifElse
     // LoopLearn
-    ParentComp
+    // ParentComp
+    TemplateL
   }
 }
 </script>
@@ -37,6 +40,7 @@ export default {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: #2c3e50;
+  text-align: center;
   margin-top: 60px;
 }
 </style>
